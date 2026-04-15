@@ -1,0 +1,112 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="WEEK7B" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="WEEK7B_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="WEEK7B" sap:VirtualizedContainerService.HintSize="753,468.65666666666664" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Top Engineering Colleges in Hyderabad" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="452,440" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="84fb3230-210a-40d8-8d00-315e73fa331b" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,245.5" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'DEPARTMENTS'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,185.5" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="84fb3230-210a-40d8-8d00-315e73fa331b" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="cmrithyderabad.edu.in" DesignTimeRectangle="1465, 786, 279, 80" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='sm-1774459574142741-9' tag='A' /&gt;" Guid="401b04e5-8cf9-42a6-bb7c-595a39aaa5b0" InformativeScreenshot="3e66bbd8782782acd7a6a35b18ed503c.jpg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Top Engineering Colleges in Hyderabad - CMR Institute of Technology' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+        </ActivityFunc>
+      </uix:NApplicationCard.OCREngine>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="1414, 0, 1466, 1704" BrowserType="Chrome" ContentHash="lOjlhW5Vm02KMPD8HMUGRw" IconBase64="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" InformativeScreenshot="2097fd82e57a710c6e8a9efa8e9703ed.jpg" Reference="74-2zlZFn0aFrs5A3hi_Og/OfVUillXBEybKHuOcjKqtQ" Selector="&lt;html app='chrome.exe' title='Top Engineering Colleges in Hyderabad - CMR Institute of Technology' /&gt;" Url="https://cmrithyderabad.edu.in/" Version="V2" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
